@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
+
+import PostPage from "./pages/PostPage";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Home/>
+      <PostPage/>
     </div>
   );
 }

@@ -156,7 +156,7 @@
   margin-left: 1.5em;
   text-align: center;
 }
-/* SINGLE POST*/
+/* P O S T*/
 .post {
   width: 385px;
   margin: 0px 25px 40px 25px;
@@ -211,4 +211,60 @@
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+
+/* SINGLE POST PAGE*/
+.postPage {
+  display: flex;
+}
+.singlePostDetails {
+  flex: 9;
+  margin-top: 2em;
+}
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+}
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.singlePostTitle {
+  margin: 10px;
+  font-size: 28px;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+.singlePostActions {
+  float: right;
+  font-size: 16px;
+}
+.spostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.spostIcon:first-child {
+  color: teal;
+}
+.spostIcon:last-child {
+  color: tomato;
+}
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: grey;
+  font-family: "Lora", "Sans Serif";
+}
+.singlePostAuthor {
+  margin-left: 5px;
+}
+.singlePostDesc {
+  color: #444;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
 }
