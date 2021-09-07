@@ -85,3 +85,66 @@
   margin-top: 75px;
   object-fit: cover;
 }
+/*H O M E*/
+.home {
+  display: flex;
+}
+
+/* S I D E B A R */
+.sidebar {
+  flex: 3;
+  height: fit-content;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sideTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: solid 1px #a7a4a4;
+  border-bottom: solid 1px #a7a4a4;
+  font-size: 14px;
+  line-height: 19px;
+  color: #222222;
+  font-weight: 600;
+}
+.sidebarItem > img {
+  margin-top: 15px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.sidebarItem > p {
+  padding: 20px;
+  line-height: 1.5em;
+}
+.sideList {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.sideListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.sidebarIcon {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/*P O S T S*/
+.posts {
+  flex: 9;
+}
