@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar";
-import CreatePage from "./pages/CreatePage";
-import UpdateProfPage from "./pages/UpdateProfPage";
+import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
 
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <UpdateProfPage/>
+      <RegisterPage/>
     </div>
   );
 }
