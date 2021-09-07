@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Post() {
     return (
@@ -9,7 +10,7 @@ export default function Post() {
                   <span className="postCateg">Life </span>
                   <span className="postCateg">Love </span>
               </div>
-              <span className="postTitle"> Post Title</span>
+              <span className="postTitle"> <Link to="post/:Id" className="link">Post Title</Link></span>
               <hr/>
               <span className="postDate"> 30 mins ago</span>
           </div>
