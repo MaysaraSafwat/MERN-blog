@@ -1,0 +1,57 @@
+/*NAVBAR*/
+
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 7vh;
+  width: 100%;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.navLeft,
+.navRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navCenter {
+  flex: 6;
+}
+.navIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #444;
+  cursor: pointer;
+}
+.navIcon:hover {
+  color: grey;
+}
+.navList {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.navItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.navItem:hover {
+  color: gray;
+}
+.navImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.navSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+}
