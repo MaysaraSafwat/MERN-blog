@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <div className="nav">
             <div className="navLeft">
-                <i className="navIcon fab fa-facebook"></i>
+                <i className="navIcon fab fa-facebook-f"></i>
                 <i className="navIcon fab fa-twitter"></i>
                 <i className="navIcon fab fa-instagram"></i>
             </div>
