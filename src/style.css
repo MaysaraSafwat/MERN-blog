@@ -227,7 +227,7 @@
 }
 .singlePostImg {
   width: 100%;
-  height: 300px;
+  height: 50vh;
   border-radius: 5px;
   object-fit: cover;
 }
@@ -267,4 +267,158 @@
   font-size: 18px;
   line-height: 25px;
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+/* C R E A T E  P A G E*/
+.create {
+  margin: 50px 150px 0 150px;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+.createImg {
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.createForm {
+  position: relative;
+}
+.inputIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid rgb(129, 125, 125);
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+}
+.createInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+.createInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+.createInput:focus {
+  outline-style: none;
+}
+.textInput {
+  width: 70vw;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.puplishBtn {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
+
+/*U P D A T E  P R O F I L E*/
+.updateProf {
+  display: flex;
+}
+.updateProfWrapper {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  width: 70vw;
+  margin: 0 auto;
+  padding: 2em;
+}
+.profSettings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.updateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: teal;
+}
+
+.deleteProf {
+  color: red;
+  font-size: 12px;
+  cursor: pointer;
+}
+.updateForm {
+  display: flex;
+  flex-direction: column;
+}
+.updatePP {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.updatePP > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.updatePPIcon {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  margin-left: 10px;
+  color: white;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+.updatePPInput {
+  width: 30%;
+}
+.updateForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.updateForm > input {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.updateProfBtn {
+  align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.updateProfBtn:hover {
+  background-color: rgb(1, 114, 114);
+}
+.updateProfBtnfocus {
+  outline-style: none;
 }

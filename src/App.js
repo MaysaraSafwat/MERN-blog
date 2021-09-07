@@ -1,12 +1,13 @@
 import Navbar from "./components/Navbar";
+import CreatePage from "./pages/CreatePage";
+import UpdateProfPage from "./pages/UpdateProfPage";
 
-import PostPage from "./pages/PostPage";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <PostPage/>
+      <UpdateProfPage/>
     </div>
   );
 }

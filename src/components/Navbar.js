@@ -13,7 +13,7 @@ export default function Navbar() {
                 <ul className="navList">
                     <li className="navItem">HOME</li>
                     <li className="navItem">ABOUT</li>
-                    <li className="navItem">WRITE</li>
+                    <li className="navItem">CREATE</li>
                     <li className="navItem">LOGOUT</li>
                 </ul>
             </div>

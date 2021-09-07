@@ -5,7 +5,7 @@ export default function PostDetails() {
     return (
         <div className="singlePostDetails">
           <div className="singlePostWrapper">
-              <img className="singlePostImg" src="https://images.unsplash.com/photo-1517415465-a8f8ad47bea7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80" alt="img"/>
+              <img className="singlePostImg" src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="img"/>
               <h1 className="singlePostTitle">
                   Blah blah blahty blah
                   <div className="singlePostActions">
