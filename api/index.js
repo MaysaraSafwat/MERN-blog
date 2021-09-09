@@ -34,9 +34,9 @@ const storage = multer.diskStorage({
   });
 
 
-app.use("./api/auth" , authRoute);
-app.use("./api/user" , userRoute);
-app.use("./api/post" , postRoute);
+app.use("/api/auth" , authRoute);
+app.use("/api/user" , userRoute);
+app.use("/api/post" , postRoute);
 app.use("/api/categories", categoryRoute);
 
 app.listen("5000" , ()=>{
