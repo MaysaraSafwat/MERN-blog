@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,10 +13,11 @@ import RegisterPage from "./pages/RegisterPage";
 import UpdateProfPage from "./pages/UpdateProfPage";
 import CreatePage from "./pages/CreatePage";
 import PostPage from "./pages/PostPage"
+import { Context } from "./context/Context";
 
 
 function App() {
-  const user = false;
+  const {user} = useContext(Context);
   return (
     <Router>
       <Navbar/>

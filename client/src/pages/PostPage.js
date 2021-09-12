@@ -1,11 +1,11 @@
 import React from 'react'
 import Sidebar from "../components/Sidebar"
-import PostDetails from '../components/SingleDetails'
+import SinglePostDetails from '../components/SinglePostDetails'
 
 export default function PostPage() {
     return (
         <div className="postPage">
-            <PostDetails/>
+            <SinglePostDetails/>
             <Sidebar/>
         </div>
     )
