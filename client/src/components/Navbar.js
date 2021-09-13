@@ -5,6 +5,8 @@ import "../style.css";
 
 export default function Navbar() {
   const { user, dispatch } = useContext(Context);
+  const PF = "http://localhost:5000/images/"
+
 
   const handleLogout = ()=>{
     dispatch({ type: "LOGOUT" });
@@ -35,7 +37,7 @@ export default function Navbar() {
           <Link className="link" to="/updateProfile">
             <img
               className="navImg"
-              src={user.profilePic}
+              src={PF+user.profilePic}
               alt=""
             />
           </Link>
