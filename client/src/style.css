@@ -548,3 +548,20 @@
   color: white;
   border-radius: 10px;
 }
+
+/*UPDATE POST*/
+.updateBtn {
+  position: relative;
+  top: 50px;
+  left: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+}
