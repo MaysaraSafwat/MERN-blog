@@ -39,7 +39,7 @@ export default function RegisterPage() {
                      onChange={(e)=> setPassword(e.target.value)}
               />
               <button className="registerBtn">REGISTER</button>
-              <button type="submit" className="registerLoginBtn"><Link to="login" className="link">Already Have an account? Register</Link></button>
+              <button type="submit" className="registerLoginBtn"><Link to="login" className="link">Already Have an account? Login</Link></button>
               {err && <span style={{color:"red", marginTop:"10px"}}>Ops! Something went wrong. Try Again please.
               </span>}
            </form>

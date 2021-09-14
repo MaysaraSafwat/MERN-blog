@@ -38,13 +38,22 @@ export default function UpdateProfPage() {
       dispatch({ type: "UPDATE_FAILURE" });
     }
   };
-   
+  const handleDelete = async()=>{
+    try{
+         await axios.delete(`/user/${user._id}` ,
+          { data :  {username : user.username,
+          userId: user._id}}
+          );
+          dispatch({type : "LOGOUT"});
+         window.location.replace("/")
+     }catch(err){}
+  }  
     return (
         <div className="updateProf">
             <div className="updateProfWrapper">
                 <div className="profSettings">
                     <span className="updateTitle"> Update Your Title</span>
-                    <span className="deleteProf" > Delete Your Account</span>
+                    <span className="deleteProf" onClick={handleDelete} > Delete Your Account</span>
                 </div>
                 <form className="updateForm" onSubmit={handleSubmit}>
                     <label>Profile Picture</label>
