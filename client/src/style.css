@@ -1,5 +1,8 @@
 * {
   margin: 0;
+  --color1: teal;
+  --color2: lightcoral;
+  --danger: tomato;
 }
 .link {
   color: inherit;
@@ -10,11 +13,12 @@
   display: flex;
   position: sticky;
   top: 0;
-  height: 7vh;
+  height: 8vh;
   width: 100%;
   align-items: center;
   font-family: "Josefin Sans", sans-serif;
-  background-color: white;
+  background-color: #ffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   z-index: 999;
 }
 .navLeft,
@@ -30,11 +34,10 @@
 .navIcon {
   font-size: 20px;
   margin-right: 10px;
-  color: #444;
   cursor: pointer;
 }
 .navIcon:hover {
-  color: grey;
+  color: var(--color1);
 }
 .navList {
   display: flex;
@@ -48,7 +51,7 @@
   cursor: pointer;
 }
 .navItem:hover {
-  color: gray;
+  color: var(--color1);
 }
 .navImg {
   width: 40px;
@@ -141,9 +144,10 @@
   margin-bottom: 30px;
 }
 .sideListItem {
-  display: inline-block;
+  display: block;
   width: 50%;
   margin-top: 15px;
+  font-size: 16px;
   cursor: pointer;
 }
 .sidebarIcon {
@@ -182,7 +186,7 @@
   font-family: "Lora", sans-serif;
   font-weight: 400;
   font-size: 13px;
-  color: green;
+  color: var(--color1);
   line-height: 19px;
   margin-top: 15px;
   margin-right: 10px;
@@ -250,10 +254,10 @@
 }
 
 .spostIcon:first-child {
-  color: teal;
+  color: var(--color1);
 }
 .spostIcon:last-child {
-  color: tomato;
+  color: var(--danger);
 }
 .singlePostInfo {
   margin-bottom: 20px;
@@ -324,7 +328,7 @@
   top: 20px;
   right: 60px;
   color: white;
-  background-color: teal;
+  background-color: var(--color1);
   padding: 10px;
   border: none;
   border-radius: 10px;
@@ -353,11 +357,11 @@
 .updateTitle {
   font-size: 30px;
   margin-bottom: 20px;
-  color: teal;
+  color: var(--color1);
 }
 
 .deleteProf {
-  color: red;
+  color: var(--danger);
   font-size: 12px;
   cursor: pointer;
 }
@@ -388,7 +392,7 @@
   border-radius: 50%;
   margin-left: 10px;
   color: white;
-  background-color: lightcoral;
+  background-color: var(--color2);
   cursor: pointer;
 }
 .updatePPInput {
@@ -412,7 +416,7 @@
   border: none;
   border-radius: 10px;
   color: white;
-  background-color: teal;
+  background-color: var(--color1);
   padding: 10px;
   margin-top: 20px;
   cursor: pointer;
@@ -467,7 +471,7 @@
 .loginBtn {
   margin-top: 20px;
   cursor: pointer;
-  background-color: teal;
+  background-color: var(--color1);
   color: white;
   padding: 10px;
   border: none;
@@ -482,7 +486,7 @@
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: lightcoral;
+  background-color: var(--color2);
   cursor: pointer;
   padding: 10px;
   border: none;
@@ -530,7 +534,7 @@
 .registerBtn {
   margin-top: 20px;
   cursor: pointer;
-  background-color: lightcoral;
+  background-color: var(--color2);
   color: white;
   padding: 10px;
   border: none;
@@ -541,7 +545,7 @@
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: teal;
+  background-color: var(--color1);
   cursor: pointer;
   padding: 10px;
   border: none;
@@ -555,7 +559,7 @@
   top: 50px;
   left: 10px;
   color: white;
-  background-color: teal;
+  background-color: var(--color1);
   padding: 10px;
   border: none;
   border-radius: 10px;

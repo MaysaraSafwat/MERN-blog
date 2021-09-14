@@ -25,8 +25,10 @@ export default function Sidebar() {
                    {categs.map((c) => 
                    <Link to={`/?cat=${c.name}`} className="link">
                     <li className="sideListItem">{c.name}</li>
-                    </Link>
+                   </Link>
                    )}
+                   <li className="sideListItem">Photography</li>
+                   <li className="sideListItem">Music</li>
                 </ul>
            </div>
            <div className="sidebarItem">
